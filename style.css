@@ -1,0 +1,208 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #BFD7E4;
+}
+
+body::before{
+  content:'';
+  width: 100%;
+  height: 268px;
+  display: block; /*ocupa toda a linha e joga os elementos para baixo*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #293241;
+}
+
+#page{
+  width: 750px;
+  margin: auto;
+}
+
+header{
+  text-align: center;
+
+}
+
+header h1{
+  color: #FFFF;
+  font-family: "Staatliches",sans-serif;
+  font-size: 36px;
+}
+
+header p {
+  color: #ffff;
+  font-family: 'Poppins',sans-serif;
+  font-size: 16px;
+}
+
+header img{
+  margin-bottom: 32px;
+}
+#fieldset-wrapper legend{
+  font-family: "Staatliches",sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFF;
+  border-radius: 5px;
+  padding: 30px;
+  background: #F67669;
+}
+fieldset{
+  border: 0px solid #FFFF;
+}
+
+form{
+  border-radius: 5px;
+  background: #FFFFFF;
+}
+
+#fieldset-wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  color: #4E4958;
+}
+
+input{
+  background: #E6E6F0 ;
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  border: 1px solid #ffff;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#input-cadastro{
+  margin: 0px 64px 0 64px;
+  display: flex;
+  }
+
+#input-nomes{
+  display: flex;
+}
+
+#mentor{
+  border: 1px solid #ffff;
+  margin-top: 31px;
+}
+
+
+#mentor legend{
+  font-family: "Staatliches",sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: #253B51;
+}
+
+#line{
+  border: 1px solid #E6E6F0;
+  margin: 10px 64px 0px 64px;
+}
+
+#input-mentor{
+  margin: 0px 64px 0 64px;
+  
+}
+
+#input-mentores{
+  
+  display: flex;
+  flex-direction: column;
+}
+
+#input-mentores div {
+  
+  display: flex;
+  flex-direction: column;
+}
+
+#input-mentores div select{
+  width: 200px;
+}
+
+
+#input-mentores div textarea{
+  width: 350px;
+}
+
+textarea,select{
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  background: #E6E6F0;
+  
+}
+
+#input-check {
+  margin-top: 30px;
+  position: relative;
+}
+
+#input-check label{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
+}
+
+#input-check input {
+  position: absolute;
+
+  width:24px;
+  height: 24px;
+}
+
+#input-check label::before {
+  content: '';
+  width:24px;
+  height: 24px;
+  border: 2px solid #E6E6F0;
+  display: block;
+  border-radius: 8px;
+}
+
+
+#proxima-mentoria{
+  margin-top: 36px;
+  border: 1px solid #ffff;
+}
+
+#proxima-mentoria legend{
+  margin-top: 42px;
+  font-family: "Staatliches",sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: #253B51;
+}
+
+#proxima-mentoria{
+  margin: 30px 64px 0px 64px;
+}
+
+#proxima-mentoria #datas{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#salvar{
+  margin: 30px 0px 30px 0px;
+  background: #F67669;
+  font-family: "Staatliches",sans-serif;
+  font-size: 20px ;
+  color: #ffff;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
